@@ -37,6 +37,6 @@ RUN git clone https://aur.archlinux.org/yay-bin.git && \
     cd yay-bin && \
     makepkg --noconfirm --syncdeps --rmdeps --install --clean
 
-# Build the package
+# Build the package.
 WORKDIR /pkg
 CMD /bin/sh /run.sh
